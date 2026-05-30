@@ -88,7 +88,7 @@ https://app.trugen.ai/embed/92f66e40-1cff-40c8-952a-71d472b947b2?username=Guest&
 Or clone and open locally:
 
 ```bash
-git clone https://github.com/yourusername/MindMirror
+git clone https://github.com/maulikumari/MindMirror
 open mindmirror.html
 ```
 
