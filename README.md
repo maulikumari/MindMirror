@@ -77,7 +77,6 @@ open mindmirror.html
 ## 💬 The Pitch
 
 > *"There are 1 billion people globally with unmet mental health needs. Most solutions are static — apps you open and close. MindMirror is the first agent that comes to you, notices you, and stays with you — not as a therapist, but as something new: a presence that actually pays attention. And for the first time, that presence isn't just on your screen — it's in the room with you."*
-
 ---
 ---
 
