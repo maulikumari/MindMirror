@@ -39,20 +39,51 @@ Using TruGen's Hawkeye-1 vision model, MindMirror continuously reads:
 ### 🧬 Memory Across Sessions
 MindMirror remembers your triggers, what helped you before, your patterns, and your progress. Every session picks up with genuine continuity — it knows you.
 
+---
+
+## 🏗️ Architecture
+
+```
 User's Browser
-│
-▼
+      │
+      ▼
 TruGen iFrame (video agent, camera, mic)
-│
-▼
+      │
+      ▼
 TruGen Backend (Huma-1 Avatar + Hawkeye-1 Vision + Memory)
-│
-▼ Webhooks
+      │
+      ▼ Webhooks
 Backend Server
-│
-├──► Google Sheets (Session Logging)
-├──► Webhook.site (Crisis Alert Monitor)
-└──► Arduino (Mood Lamp + Haptic Pad)
+      │
+      ├──► Google Sheets (Session Logging)
+      ├──► Webhook.site (Crisis Alert Monitor)
+      └──► Arduino (Mood Lamp + Haptic Pad)
+```
+
+---
+
+## 🔧 Tech Stack
+
+| Layer | Technology |
+|-------|-----------|
+| Video Agent | TruGen AI |
+| Avatar & Expression | Huma-1 by TruGen |
+| Vision & Emotion Detection | Hawkeye-1 by TruGen |
+| LLM | Gemini 2.5 Pro |
+| Speech to Text | Deepgram Nova-3 (Multilingual) |
+| Voice Synthesis | ElevenLabs Turbo 2.5 |
+| Session Logging | Google Sheets via Sheet.best |
+| Crisis Monitoring | Webhook.site |
+| Hardware | Arduino UNO + RGB LED + Vibration Motor |
+| Languages Supported | English + Hindi |
+
+---
+
+## 🚀 Try It Live
+
+```
+https://app.trugen.ai/embed/92f66e40-1cff-40c8-952a-71d472b947b2?username=Guest&id=user_001&context=mental_health_session
+```
 
 Or clone and open locally:
 
@@ -77,7 +108,3 @@ open mindmirror.html
 ## 💬 The Pitch
 
 > *"There are 1 billion people globally with unmet mental health needs. Most solutions are static — apps you open and close. MindMirror is the first agent that comes to you, notices you, and stays with you — not as a therapist, but as something new: a presence that actually pays attention. And for the first time, that presence isn't just on your screen — it's in the room with you."*
----
----
-
-## 🏗️ Architecture
