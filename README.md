@@ -75,7 +75,7 @@ Backend Server
 | Session Logging | Google Sheets via Sheet.best |
 | Crisis Monitoring | Webhook.site |
 | Hardware | Arduino UNO + RGB LED + Vibration Motor |
-| Languages Supported | English + Hindi |
+| Languages Supported | Multilingual (English, Spanish, French, German, Hindi, Russian, Portuguese, Japanese, Italian, and Dutch) |
 
 ---
 
